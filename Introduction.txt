@@ -8,3 +8,5 @@ Silahkan Hubungi Kami Jika Ada Terjadi Masalah :
 Creator : Group PRD Mahasiswa Unsyiah Teknik/Teknik Elektro @2019
 Line	: basyair07
 WA 	: 085362675517
+
+@SOR_v1 for arduino-compatible
