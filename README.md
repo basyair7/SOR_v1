@@ -1,5 +1,5 @@
 # SOR_v1
-Open source code
+For Arduino-compatible
 
 Introduction :
 SOR v1.0 atau Switch On all Remotes IR (saklar di semua remote) 
