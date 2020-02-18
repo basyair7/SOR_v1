@@ -1,0 +1,47 @@
+***Liat pada gambar terlebih dahulu....
+
+1. Pasangkan kabel pin pertama(A0) ke data sensor (kaki ke 3 paling sebelah kiri)
+2. Pasangkan kabel pin vcc dan gnd ke sensor (kaki tengah dan 3 paling sebelah kanan)(liat pada gambar)
+3. Tekan Serial Monitor
+4. Arahkan Remote ke board SOR_v1.0 dan tekan sembarang tombol remote tv atau IR
+5. Bila ada muncul angka, berarti Sudah Berhasil.... Lanjutkan "Cara mengubah code tombol remote case"
+
+
+	***Cara mengubah code tombol remote case***
+
+1. Tekan Serial Monitor ada pada pojok kanan sendiri
+
+2. Arahkan Remote ke board SOR_v1.0 dan tekan tombol 1 atau tombol apa saja yang akan digunakan buat menghidupkan/mematikan saklar
+
+3. Jika keluar kode berhuruf, jangan lupa menambahkan 0x , salin(copy) dan tempelkan(paste) ke kode 0x20DF10EF atau hapus dulu kode 0x20DF10EF dan tempelkan kode baru,
+   Jika keluar kode tanpa huruf, tinggal salin dan tempelkan seperti biasanya misal 2334217 tinggal salin tanpa menambahkan 0x (nol kali)
+
+4. Lakukan minimal 4 tombol pada case yang sudah disediakan
+
+5. Jika sudah, save dan upload seperti pada cara yang awal
+
+6. selesai... Jika ada bermasalah, silahkan hubungi creator pada sosmed line/wa
+
+
+
+NOTE : jika ingin menambah lebih dari satu remote, tambahkan fungsi remote2() pada void loop.. seperti contoh pada dibawah ini :
+
+void loop(){
+  // put your main code here, to run repeatedly:
+
+  if (tombol_remote.decode(&kode_remote))
+  {
+    remote1();
+    remote2();
+    remote3();
+    remote4();
+
+    Serial.println(kode_remote.value, HEX);
+    tombol_remote.resume();
+    
+  }
+}
+
+dan kode pada remote2,3dan4 sama seperti remote1 hanya saja beda kode pada case.. karena 4 kode case sama dengan 1 remote IR
+
+***Liat pada gambar***
