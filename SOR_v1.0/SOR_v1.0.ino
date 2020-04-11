@@ -2,6 +2,9 @@
  * Creator      : PRD GROUP 2019
  * powered by arduino
  */
+/*sebelum di compiler, jangan lupa add library IRremote.h yang sudah di download, 
+ * klik ke sketch >> Include Library >> Add .ZIP File >> Select the Downloaded ZIP yang telah didownload
+ */
 
 #include<IRremote.h>
 
