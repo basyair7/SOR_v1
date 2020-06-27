@@ -1,7 +1,7 @@
 # SOR_v1
 For Arduino-compatible
 
-Introduction :
+# Introduction :
 SOR v1.0 atau Switch On all Remotes IR (saklar di semua remote) 
 Sangat berguna dimana saja, diruangan kantor atau dirumah. Saklar ini tidak hanya untuk lampu, 
 tetapi bisa juga digunakan untuk perangkat elektronik lainnya (seperti saklar pada sockets, kipas angin, dan lain-lain). 
