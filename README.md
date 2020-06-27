@@ -11,7 +11,7 @@ tetapi bisa juga digunakan untuk perangkat elektronik lainnya (seperti saklar pa
 Hanya menggunaka remote IR apa saja seperti remote tv, dvd player, receiver(decoder) parabola, dan lain-lain.
 
 # About me
-name : SOR_v1.0
+name : SOR_v1.3
 
 Creator : Group PRD Mahasiswa Unsyiah Teknik/Teknik Elektro @2019
 
