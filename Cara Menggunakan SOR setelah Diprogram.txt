@@ -11,7 +11,7 @@
 
 1. Tekan Serial Monitor ada pada pojok kanan laptop/pc
 
-2. Arahkan Remote ke board SOR_v1.0 dan tekan tombol 1 atau tombol apa saja yang akan digunakan buat menghidupkan/mematikan saklar
+2. Arahkan Remote ke sensor dan tekan tombol 1 atau tombol apa saja yang akan digunakan buat menghidupkan/mematikan saklar
 
 3. Jika keluar kode berhuruf, jangan lupa menambahkan 0x , salin(copy) dan tempelkan(paste) ke kode 0x20DF10EF atau hapus dulu kode 0x20DF10EF dan tempelkan kode baru,
    Jika keluar kode tanpa huruf, tinggal salin dan tempelkan seperti biasanya misal 2334217 tinggal salin tanpa menambahkan 0x (nol kali)
