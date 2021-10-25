@@ -9,7 +9,7 @@
 
 	***Cara mengubah code tombol remote case***
 
-1. Tekan Serial Monitor ada pada pojok kanan sendiri
+1. Tekan Serial Monitor ada pada pojok kanan laptop/pc
 
 2. Arahkan Remote ke board SOR_v1.0 dan tekan tombol 1 atau tombol apa saja yang akan digunakan buat menghidupkan/mematikan saklar
 
